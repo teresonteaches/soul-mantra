@@ -4,8 +4,11 @@
 // the birth syllable and chakra bija. Claude Haiku is called once, only to write the
 // short symbolic interpretation. Your API key stays on Vercel.
 import Anthropic from "@anthropic-ai/sdk";
-import * as Astronomy from "astronomy-engine";
-import cityTimezones from "city-timezones";
+import { createRequire } from "node:module";
+// Both libraries are loaded through require(), which works on every Node version Vercel uses.
+const require = createRequire(import.meta.url);
+const Astronomy = require("astronomy-engine");
+const cityTimezones = require("city-timezones");
 
 const client = new Anthropic(); // reads ANTHROPIC_API_KEY from Vercel's settings
 const MODEL = process.env.MANTRA_MODEL || "claude-haiku-5-5"; // keeps each mantra far under 1 cent
