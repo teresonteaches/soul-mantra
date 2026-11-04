@@ -370,9 +370,9 @@ const PAGE_HTML = `<!DOCTYPE html>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <style>
-:root{--bg:#fbf8f2;--surface:#ffffff;--ink:#1f1b2e;--ink-soft:#5a5470;--ink-faint:#8d87a3;--line:#e7e1d4;--deep:#3a2a6b;--gold:#b7791f;--tint:#f4eedf;--tint-line:#e4d3ac;--danger:#a83246}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#13111c;--surface:#1c1929;--ink:#f1edf8;--ink-soft:#bcb4d4;--ink-faint:#8a83a3;--line:#2f2a42;--deep:#c9b8ff;--gold:#e9b45a;--tint:#262036;--tint-line:#4a3f2a;--danger:#ff8095;color-scheme:dark}}
-:root[data-theme="dark"]{--bg:#13111c;--surface:#1c1929;--ink:#f1edf8;--ink-soft:#bcb4d4;--ink-faint:#8a83a3;--line:#2f2a42;--deep:#c9b8ff;--gold:#e9b45a;--tint:#262036;--tint-line:#4a3f2a;--danger:#ff8095;color-scheme:dark}
+:root{--bg:#ffffff;--surface:#ffffff;--ink:#2a1220;--ink-soft:#6b4f60;--ink-faint:#9c7f8d;--line:#ecdde3;--deep:#8f1a4f;--gold:#d63b7b;--tint:#fbe6ee;--tint-line:#f3c8da;--danger:#a83246}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#160a13;--surface:#20101b;--ink:#f5e8ee;--ink-soft:#c39cb2;--ink-faint:#8f6e80;--line:#3a1f31;--deep:#f0b3d9;--gold:#ef5c98;--tint:#33182a;--tint-line:#4a2438;--danger:#ff8095;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#160a13;--surface:#20101b;--ink:#f5e8ee;--ink-soft:#c39cb2;--ink-faint:#8f6e80;--line:#3a1f31;--deep:#f0b3d9;--gold:#ef5c98;--tint:#33182a;--tint-line:#4a2438;--danger:#ff8095;color-scheme:dark}
 *{box-sizing:border-box}
 html,body{margin:0}
 body{background:var(--bg);color:var(--ink);font-family:"IBM Plex Sans",system-ui,-apple-system,sans-serif;font-size:16px;line-height:1.6}
