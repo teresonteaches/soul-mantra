@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/api/mantra" }
+  ],
+  "functions": {
+    "api/mantra.js": { "maxDuration": 60 }
+  }
+}
